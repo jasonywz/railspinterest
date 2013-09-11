@@ -1,4 +1,6 @@
-== README
+== README for Railspinterest
+
+This is a Rails app that is designed to look like PINTEREST!
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
