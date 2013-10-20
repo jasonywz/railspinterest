@@ -1,1 +1,79 @@
-@import '/Users/jasonyu/Developer/railspinterest/railspinterest/vendor/assets/stylesheets/bootstrap/bootstrap.scss';
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:100);
+
+
+@import "../../../vendor/assets/stylesheets/bootstrap/bootstrap.scss";
+
+.navbar-default .navbar-nav > li > a {
+color: white;
+}
+.navbar{
+	margin-bottom: 0px;
+	background-color: rgba(255,255,255,0.08);
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	border: none;
+}
+
+
+.splashpage{
+	height: 400px;	
+	background-image: url('blurred.jpg'); 
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.navbar-default .navbar-collapse{
+	border:none;
+}
+.navbar-default .navbar-brand{
+	color: #1F1F20;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: white;
+}
+
+.banner{
+	text-align: center;
+	margin-top: 130px;
+	font-size: 50px;
+	color: white;
+	font-family: 'Open Sans','HelveticaNeue-Ultralight';
+}
+
+.describe{
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans','HelveticaNeue-Ultralight';
+	font-size: 18px;
+}
+
+.signup{
+	padding:5px 10px;
+	margin-top: 40px;
+	font-family:'Open Sans','HelveticaNeue-Ultralight';
+	background-color: rgba(255,255,255,0.08);
+	border: solid 1px white;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 30px;
+	color: white
+
+}
+
+.signup:hover{
+	background-color: rgba(255,255,255,0.3);
+	text-shadow: 0 0 0.2em grey;
+}
+
+@media (max-width: 487px){
+  .banner{
+    margin-top: 70px;
+  }
+}
+
