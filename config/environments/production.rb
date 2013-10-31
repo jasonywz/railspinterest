@@ -79,5 +79,6 @@ Railspinterest::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
   
   #In production, :host should be set to the actual host of your application.
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  #Note to set this to actual host name.
+  config.action_mailer.default_url_options = { :host => 'crawlsy.herokuapp.com' }
 end
